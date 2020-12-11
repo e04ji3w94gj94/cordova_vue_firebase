@@ -1,0 +1,4 @@
+*/node_modules/*
+*/.DS_Store/*
+cordova_app/google-services.json
+cordova_app/GoogleService-Info.plist

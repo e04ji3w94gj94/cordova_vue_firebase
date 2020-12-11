@@ -1,0 +1,68 @@
+{
+  "_from": "cordova-plugin-idfa",
+  "_id": "cordova-plugin-idfa@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-TTCQfD8LbddacOmOMPvm9GKjpErBl4UuEqUVzsjmc7c3Uecj2Aj4inEOlRo1q4b/jvsy9+bAWzQkY1q2YRiskA==",
+  "_location": "/cordova-plugin-idfa",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-idfa",
+    "name": "cordova-plugin-idfa",
+    "escapedName": "cordova-plugin-idfa",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-idfa/-/cordova-plugin-idfa-1.2.0.tgz",
+  "_shasum": "2a19261a83a0aade600b92c50e62776f1727c31d",
+  "_spec": "cordova-plugin-idfa",
+  "_where": "/Users/faifai/Desktop/Webproject/cordovaproject/firebase_example/cordova_app",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-idfa/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-idfa",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for getting Advertising ID (IDFA or AAID)",
+  "funding": "https://github.com/chemerisuk/cordova-plugin-idfa?sponsor=1",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-idfa#readme",
+  "keywords": [
+    "cordova",
+    "IFA",
+    "IDFA",
+    "AAID",
+    "Advertising ID",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-idfa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-idfa.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "1.2.0"
+}

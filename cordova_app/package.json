@@ -1,0 +1,53 @@
+{
+  "name": "helloworld",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-ios": "^5.1.1",
+    "cordova-plugin-customurlscheme": "^5.0.2",
+    "cordova-plugin-firebase-analytics": "^5.0.0",
+    "cordova-plugin-firebase-dynamiclinks": "^5.0.0",
+    "cordova-plugin-idfa": "^1.2.0",
+    "cordova-support-android-plugin": "^1.0.2",
+    "cordova-support-google-services": "1.4.1"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-support-google-services": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-idfa": {
+        "ANDROID_PLAY_ADID_VERSION": "17.0.+"
+      },
+      "cordova-plugin-firebase-analytics": {
+        "ANALYTICS_COLLECTION_ENABLED": "true",
+        "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+        "ANDROID_FIREBASE_ANALYTICS_VERSION": "18.0.+",
+        "IOS_FIREBASE_ANALYTICS_VERSION": "~> 7.0.0"
+      },
+      "cordova-plugin-customurlscheme": {
+        "URL_SCHEME": "myvue.tsb.faifai",
+        "ANDROID_SCHEME": " ",
+        "ANDROID_HOST": " ",
+        "ANDROID_PATHPREFIX": "/"
+      }
+    },
+    "platforms": [
+      "ios"
+    ]
+  }
+}
